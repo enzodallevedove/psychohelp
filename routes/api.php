@@ -23,3 +23,11 @@ Route::controller(AuthController::class)->prefix('auth')->group(function () {
     Route::post('refresh', 'refresh');
     Route::post('me', 'me');
 });
+
+// Route::controller(PsychologistController::class)->group(function() {
+//     Route::get('psychologists', 'index');
+//     Route::get('psychologists/{psychologist}', 'show');
+//     Route::post('psychologists', 'store');
+//     Route::put('psychologists/{psychologist}', 'update');
+//     Route::delete('psychologists/{psychologist}', 'delete');
+// });
